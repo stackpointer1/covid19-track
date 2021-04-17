@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.container{
+  padding:1rem;
+  width:100%;
+  text-align:center;
+}
+.box-confirmed
+{
+  border:1px solid #c1e964;
+  background:#d15d;
+}
+.box-recovered{
+  border:1px solid #c1e964;
+  background:#c5c215;
+}
+.box-death{
+  border: 1px solid #c1e964;
+  background:#4cccbb;
+}
+@media screen and (min-width: 900px){
+  .flex{
+      flex-wrap: nowrap;
+  }
+
+  .box{
+      margin: 1em ;
+      max-width: 300px;
+      line-height: 1.5;
+      font-size: 1.2em;
+  }
+}
